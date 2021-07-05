@@ -11,7 +11,7 @@ describe("PhotoList is rendering", () => {
     render(<PhotoList />);
   });
 
-  it("renders", () => {
+  it("renders snapshots", () => {
     const { asFragment } = render(<PhotoList />);
     expect(asFragment()).toMatchSnapshot();
   });
